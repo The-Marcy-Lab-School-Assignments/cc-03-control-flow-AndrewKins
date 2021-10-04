@@ -1,25 +1,42 @@
 //1
-function countToTen(){
-  
+function countFromOne(num){
+  for (let i=1; i <= num; i++){
+      console.log(i);
+  }
 }
-
+// countFromOne(50)
 //2
-function countFromOne(){
+function countEveryOdd(odd){
+    for (let i=1; i <= odd; i++){
+        if (i % 2 !== 0)
+        console.log(i)
+    }
   
 }
-
+// countEveryOdd(15)
 //3
-function countEveryEven(){
-  
+function isNegative(neg){
+  for (let i=1; i < neg; i++){
+      if (i % neg !== 0)
+      console.log ("false")
+  else if (i % neg === 0)
+        console.log ("true")
+      
+  }
+    
 }
-
+isNegative(3)
 //4
-function countEveryOdd(){
+function BetweenFiveAndTwenty(){
   
 }
 
 //5 
-function countEvens(){
+function isAllLowerCase(){
   
 }
 
+//5 
+function countMultiplesOfFive(){
+  
+}
